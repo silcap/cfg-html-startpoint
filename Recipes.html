@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Simple Start Point</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>MAZAQ Food Blog</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="./css.css">
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <h2>Hi there!</h2>
-  <p>First try</p>
+  <header>
+  <img src="/assets/jeff.png">
+    <h1>MAZAQ Food Blog</h1>
+    <ul>
+      <li><a href="#">Recipes</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Reviews</a></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Food n. 1</h2>
+    <p>Bla bla bla.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Food n. 2</h2>
+    <p>Bla bla bla.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Food n. 3</h2>
+    <p>Bla bla bla.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Food n. 4</h2>
+    <p>Bla bla bla.</p>
+    <button>Like</button>
+  </article>
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="./js.js"></script>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+
 </body>
 
 </html>
