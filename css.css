@@ -1,13 +1,10 @@
 body {
-  position: relative;
+  max-width: auto;
 }
-
 header {
   text-align: center;
-  background: url('http://dash.ga.co/assets/jeff-bg.png');
+  background: url("https://upload.wikimedia.org/wikipedia/commons/5/53/A_late_lunch.jpg");
   background-size: cover;
-  color: white;
-
 }
 a {
   color: white;
@@ -16,9 +13,10 @@ h1 {
   font-size: 70px;
 }
 img {
-  margin: 40px 0px 0px 0px;
+  margin: 30px;
   border: 7px solid white;
-  border-radius: 20px;
+  border-radius: 100px;
+  width: 15%
 }
 ul {
   padding: 10px;
