@@ -1,10 +1,50 @@
 body {
+  font-family: 'Arima Madurai', cursive;
+  margin: 0 auto;
   max-width: auto;
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+  border-radius: 12px;
+  max-width: 700px;
+}
+p {
+  color: rgba(255,255,255,1);
+  background-color: black;
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  max-width: 700px;
+}
+
+.food1{
+  background-image: url("https://cdn.pixabay.com/photo/2017/07/01/17/38/tiramisu-2462152_960_720.jpg");
+}
+.food2{
+  background-image: url("");
+}
+.food3{
+  background-image: url("https://c1.staticflickr.com/5/4692/38579292685_69d444c452_b.jpg");
+}
+.food4{
+  background-image: url("");
+}
+.price{
+  float: right;
 }
 header {
   text-align: center;
   background: url("https://raw.githubusercontent.com/silcap/silcap.github.io/master/pictures/background_proposal.jpg");
   background-size: cover;
+  margin: 0 auto;
 }
 a {
   color: white;
@@ -22,11 +62,13 @@ ul {
   padding: 15px;
   background: rgba(0,0,0,0.5);
   font-family: 'Arima Madurai', cursive;
-  font-size: 17.5px;
+  font-size: 18px;
+  color: white;
 }
 li {
   display: inline;
-  padding: 15px 45px 15px 45px;
+  padding: 15px 25px 15px 25px;
+  color: white;
 }
 article {
   max-width: 500px;
