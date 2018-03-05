@@ -2,7 +2,7 @@ body {
   max-width: auto;
 }
 header {
-  text-align:center;
+  text-align: center;
   background: url("https://raw.githubusercontent.com/silcap/silcap.github.io/master/pictures/background_proposal.jpg");
   background-size: cover;
 }
