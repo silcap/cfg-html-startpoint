@@ -4,12 +4,12 @@ body {
   max-width: auto;
 }
 div {
-  height: 200px;
+  height: 400px;
   background-size: cover;
   position: relative;
   margin: auto;
   border-radius: 12px;
-  max-width: 700px;
+  max-width: 1200px;
 }
 p {
   color: rgba(255,255,255,1);
@@ -29,16 +29,25 @@ p {
   background-image: url("https://cdn.pixabay.com/photo/2017/07/01/17/38/tiramisu-2462152_960_720.jpg");
 }
 .food2{
-  background-image: url("");
+  background-image: url("https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/perfect-pad-thai.jpg?itok=Bi63qQL4");
 }
 .food3{
   background-image: url("https://c1.staticflickr.com/5/4692/38579292685_69d444c452_b.jpg");
 }
 .food4{
-  background-image: url("");
+  background-image: url("https://www.saveur.com/sites/saveur.com/files/styles/655_1x_/public/import/2014/images/2012-12/7-SAV153-ShishKebabsChicken-750x750.jpg?itok=3XXHpFoi");
 }
 .price{
   float: right;
+}
+.Description{
+background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg");
+}
+.Method{
+background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg")
+}
+.Ingredients{
+background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg")
 }
 header {
   text-align: center;
@@ -51,6 +60,16 @@ a {
 }
 h1 {
   font-size: 70px;
+}
+h2 {
+  font-size: 60px;
+  font-style: oblique;
+  color: pink;
+}
+h3{
+  font-size: 40px;
+  font-style: oblique;
+  color: black;
 }
 img {
   margin: 30px;
