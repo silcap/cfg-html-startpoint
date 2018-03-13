@@ -4,12 +4,13 @@ body {
   max-width: auto;
 }
 div {
-  height: 400px;
+  height: 300px;
   background-size: cover;
   position: relative;
   margin: auto;
   border-radius: 12px;
-  max-width: 1200px;
+  max-width: 900px;
+  margin-bottom: 50px;
 }
 p {
   color: rgba(255,255,255,1);
@@ -21,8 +22,8 @@ p {
   text-align: justify;
   position: absolute;
   bottom: 0;
-  margin: auto;
-  max-width: 700px;
+  margin: 0 auto;
+  max-width: auto;
 }
 
 .food1{
@@ -103,4 +104,27 @@ article {
     padding: 5px;
     display: block;
   }
+}
+
+/*Silvia*/
+.largetiramisu {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.ingredientscolumn {
+    float: left;
+    width: 20%;
+    margin-left: 200px;
+}
+.methodcolumn {
+    float: right;
+    width: 50%;
+    margin-right: 200px;
+}
+.headertira {
+  color: #D2691E;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'Lobster Two', cursive;
 }
