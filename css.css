@@ -10,15 +10,18 @@ div {
   margin: auto;
   border-radius: 12px;
   max-width: 900px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 p {
   color: rgba(255,255,255,1);
-  background-color: black;
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  padding: 10px;
-  line-height: 28px;
+  background-color: rgb(153, 102, 102);
+  background: linear-gradient(to right, rgba(153, 102, 102, .5), rgba(153, 102, 102, 1));
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 25px;
+  font-size: 16px;
   text-align: justify;
   position: absolute;
   bottom: 0;
@@ -82,7 +85,7 @@ ul {
   padding: 15px;
   background: rgba(0,0,0,0.5);
   font-family: 'Arima Madurai', cursive;
-  font-size: 18px;
+  font-size: 17px;
   color: white;
 }
 li {
@@ -110,6 +113,8 @@ article {
 .largetiramisu {
   margin-left: 200px;
   margin-right: 200px;
+  background-image: url("https://www.seriouseats.com/recipes/images/2017/06/20170526-tiramisu-vicky-wasik-41-1500x1125.jpg");
+  background-position: center;
 }
 .ingredientscolumn {
     float: left;
@@ -122,9 +127,20 @@ article {
     margin-right: 200px;
 }
 .headertira {
-  color: #D2691E;
+  color: rgb(153, 102, 102);
   font-style: normal;
-  font-weight: 400;
   font-size: 40px;
   font-family: 'Lobster Two', cursive;
+  letter-spacing: 1px;
+  text-indent: 30px;
+  padding-top: 20px;
+}
+.details {
+  color: rgb(153, 102, 102);
+  display: block;
+  text-indent: 10px;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  letter-spacing: -.5px;
+  text-shadow: 2px 2px 4px white;
 }
