@@ -4,41 +4,88 @@ body {
   max-width: auto;
 }
 div {
+<<<<<<< HEAD
   height: 400px;
   background-size: cover;
   position: relative;
   margin: auto;
   border-radius: 12px;
   max-width: 1200px;
+=======
+  height: 200px;
+  border-radius: 15px;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+  max-width: 900px;
+  margin-bottom: 40px;
+>>>>>>> 4a3db128ecb6cce3bae42575741c1a6d963c7c17
 }
-p {
+/*.titles {
+
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  color: white;
+  font-style: normal;
+  letter-spacing: 3px;
+}*/
+.homepar {
   color: rgba(255,255,255,1);
-  background-color: black;
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  padding: 10px;
-  line-height: 28px;
+  background-color: rgb(153, 102, 102);
+  background: linear-gradient(to right, rgba(153, 102, 102, .5), rgba(153, 102, 102, 1));
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'Lobster Two', cursive;
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+  position: relative;
+  line-height: 30px;
+
+}
+.partira {
+  color: rgba(255,255,255,1);
+  background-color: rgb(153, 102, 102);
+  background: linear-gradient(to right, rgba(153, 102, 102, .5), rgba(153, 102, 102, 1));
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 25px;
+  font-size: 16px;
   text-align: justify;
   position: absolute;
   bottom: 0;
-  margin: auto;
-  max-width: 700px;
+  margin: 0 auto;
+  max-width: auto;
 }
 
 .food1{
-  background-image: url("https://cdn.pixabay.com/photo/2017/07/01/17/38/tiramisu-2462152_960_720.jpg");
+  background-image: url("https://gbc-cdn-public-media.azureedge.net/img57462.768x512.jpg");
+  background-position: center;
 }
 .food2{
   background-image: url("https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/perfect-pad-thai.jpg?itok=Bi63qQL4");
 }
 .food3{
   background-image: url("https://c1.staticflickr.com/5/4692/38579292685_69d444c452_b.jpg");
+  background-position: center;
 }
 .food4{
   background-image: url("https://www.saveur.com/sites/saveur.com/files/styles/655_1x_/public/import/2014/images/2012-12/7-SAV153-ShishKebabsChicken-750x750.jpg?itok=3XXHpFoi");
+<<<<<<< HEAD
+=======
 }
-.price{
-  float: right;
+.Description{
+background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg");
+>>>>>>> 4a3db128ecb6cce3bae42575741c1a6d963c7c17
+}
+.Method{
+background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg")
+}
+.Ingredients{
+background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg")
 }
 .Description{
 background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg");
@@ -57,6 +104,9 @@ header {
 }
 a {
   color: white;
+  font-size: 15px;
+  font-family: 'Arima Madurai', cursive;
+  font-style: normal;
 }
 h1 {
   font-size: 70px;
@@ -81,7 +131,7 @@ ul {
   padding: 15px;
   background: rgba(0,0,0,0.5);
   font-family: 'Arima Madurai', cursive;
-  font-size: 18px;
+  font-size: 17px;
   color: white;
 
 }
@@ -104,4 +154,41 @@ article {
     padding: 5px;
     display: block;
   }
+}
+
+/*Silvia*/
+.largetiramisu {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-image: url("https://www.seriouseats.com/recipes/images/2017/06/20170526-tiramisu-vicky-wasik-41-1500x1125.jpg");
+  background-position: center;
+  height: 300px
+}
+.ingredientscolumn {
+    float: left;
+    width: 20%;
+    margin-left: 200px;
+}
+.methodcolumn {
+    float: right;
+    width: 50%;
+    margin-right: 200px;
+}
+.headertira {
+  color: rgb(153, 102, 102);
+  font-style: normal;
+  font-size: 40px;
+  font-family: 'Lobster Two', cursive;
+  letter-spacing: 1px;
+  text-indent: 30px;
+  padding-top: 20px;
+}
+.details {
+  color: rgb(153, 102, 102);
+  display: block;
+  text-indent: 10px;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  letter-spacing: -.5px;
+  text-shadow: 2px 2px 4px white;
 }
