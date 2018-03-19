@@ -33,7 +33,6 @@ div {
   text-align: center;
   position: relative;
   line-height: 30px;
-
 }
 .partira {
   color: rgba(255,255,255,1);
@@ -108,7 +107,7 @@ img {
 }
 ul {
   padding: 15px;
-  background: rgba(0,0,0,0.5);
+  background: rgba(153, 102, 102,0.8);
   font-family: 'Arima Madurai', cursive;
   font-size: 17px;
   color: white;
