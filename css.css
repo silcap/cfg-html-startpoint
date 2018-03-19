@@ -169,17 +169,18 @@ article {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+.container {
+  max-width: 700px;
+}
 .ingredientscolumn {
-    float: left;
-    width: 20%;
-    margin-left: 200px;
+  float: left;
+  max-width: 180px;
 }
 .methodcolumn {
-    float: right;
-    width: 50%;
-    margin-right: 200px;
+  float: right;
+  max-width: 480px;
 }
-.headertira {
+.headertira1 {
   color: rgb(153, 102, 102);
   font-style: normal;
   font-size: 40px;
@@ -187,6 +188,23 @@ article {
   letter-spacing: 1px;
   text-indent: 30px;
   padding-top: 20px;
+}
+.headertira2 {
+  color: rgb(153, 102, 102);
+  font-style: normal;
+  font-size: 40px;
+  font-family: 'Lobster Two', cursive;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+.headertira3 {
+  color: rgb(153, 102, 102);
+  font-style: normal;
+  font-size: 40px;
+  font-family: 'Lobster Two', cursive;
+  letter-spacing: 1px;
+  text-align: justify;
+  text-indent: 15px;
 }
 .details {
   color: rgb(153, 102, 102);
