@@ -1,6 +1,7 @@
 body {
   font-family: 'Arima Madurai', cursive;
   margin: 0 auto;
+  background-color: rgba(255, 214, 51,.19);
 }
 div {
   height: 250px;
@@ -8,8 +9,13 @@ div {
   background-size: cover;
   position: relative;
   margin: auto;
-  max-width: 800px;
+  max-width: 700px;
   margin-bottom: 40px;
+}
+.social {
+  float: right;
+  position: absolute;
+  border: 0;
 }
 .homepar {
   color: rgba(255,255,255,1);
@@ -28,7 +34,7 @@ div {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  max-width: 800px;
+  max-width: 700px;
 }
 .partira {
   color: rgba(255,255,255,1);
@@ -46,7 +52,6 @@ div {
   margin: 0 auto;
   max-width: auto;
 }
-
 .food1{
   background-image: url("https://gbc-cdn-public-media.azureedge.net/img57462.768x512.jpg");
   background-position: center;
@@ -131,11 +136,12 @@ article {
 
 /*Silvia*/
 .largetiramisu {
-  margin-left: 200px;
-  margin-right: 200px;
+  max-width: 700px;
   background-image: url("https://www.seriouseats.com/recipes/images/2017/06/20170526-tiramisu-vicky-wasik-41-1500x1125.jpg");
   background-position: center;
-  height: 300px
+  height: 300px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .ingredientscolumn {
     float: left;
@@ -164,4 +170,9 @@ article {
   padding-bottom: 0px;
   letter-spacing: -.5px;
   text-shadow: 2px 2px 4px white;
+}
+.timeline {
+  float: right;
+  margin-right: 35px;
+  margin-top: 15px;
 }
