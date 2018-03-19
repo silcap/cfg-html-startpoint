@@ -166,7 +166,7 @@ article {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.container {
+.container2 {
   max-width: 700px;
 }
 .ingredientscolumn {
@@ -215,15 +215,29 @@ article {
 .timeline {
   float: right;
   margin-right: 35px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 footer {
   text-align: center;
   color: rgb(153, 102, 102);
   padding-bottom: 30px;
 }
+form {
+  float: left;
+  max-width: 250px;
+  max-height: 900;
+  margin-left: 35px;
+  margin-top: 8%;
+  text-align: center;
+}
+.signup {
+  font-family: 'Lobster Two', cursive;
+  font-size: 45px;
+  color: rgb(153, 102, 102);
+}
 
-/*Haroula*/
+
+/*Haroula
 
 Header{text-align: center;
 background: url(https://raw.githubusercontent.com/silcap/silcap.github.io/master/pictures/background_proposal.jpg) 0% 0% / cover;
@@ -279,3 +293,4 @@ div {
 .Tip{
   text-align: center;
 }
+*/
