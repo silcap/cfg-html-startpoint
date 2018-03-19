@@ -223,7 +223,7 @@ footer {
   padding-bottom: 30px;
 }
 
-
+/*Haroula*/
 
 Header{text-align: center;
 background: url(https://raw.githubusercontent.com/silcap/silcap.github.io/master/pictures/background_proposal.jpg) 0% 0% / cover;
@@ -259,6 +259,7 @@ table{font-size:  20px;
   font-family: fantasy;}
   p {font-style: italic;
 }
+
 div {
   height: 200px;
       background-size: cover;
