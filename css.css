@@ -216,7 +216,6 @@ article {
   text-shadow: 2px 2px 4px white;
 }
 .timeline {
-  position: absolute;
   float: right;
   margin-right: 35px;
   margin-top: 15px;
