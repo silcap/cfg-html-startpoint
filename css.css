@@ -1,48 +1,78 @@
 body {
   font-family: 'Arima Madurai', cursive;
   margin: 0 auto;
-  max-width: auto;
+  background-color: rgba(255, 214, 51,.19);
+}
+.widgets {
+  position: absolute;
+  right: 0px;
+  padding-top: 30px;
+  margin-right: 50px;
+}
+.fa {
+  font-size: 50px;
+  width: 40px;
+  text-align: center;
+  margin: 5px 2px;
+  padding-right: 20px;
+}
+header {
+  text-align: center;
+  background: url("https://raw.githubusercontent.com/silcap/silcap.github.io/master/pictures/background_proposal.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+a {
+  color: white;
+  font-size: 15px;
+  font-family: 'Arima Madurai', cursive;
+  font-style: normal;
 }
 div {
-<<<<<<< HEAD
-  height: 400px;
+  height: 250px;
+  border-radius: 20px;
   background-size: cover;
   position: relative;
   margin: auto;
-  border-radius: 12px;
-  max-width: 1200px;
-=======
-  height: 200px;
-  border-radius: 15px;
-  background-size: cover;
-  position: relative;
-  margin: auto;
-  max-width: 900px;
+  max-width: 700px;
   margin-bottom: 40px;
->>>>>>> 4a3db128ecb6cce3bae42575741c1a6d963c7c17
 }
-/*.titles {
-
-  font-size: 50px;
-  text-align: center;
-  position: relative;
+img {
+  margin: 30px;
+  border: 7px solid white;
+  border-radius: 100px;
+  width: 15%
+}
+ul {
+  padding: 15px;
+  background: rgba(153, 102, 102,0.8);
+  font-family: 'Arima Madurai', cursive;
+  font-size: 17px;
   color: white;
-  font-style: normal;
-  letter-spacing: 3px;
-}*/
+}
+li {
+  display: inline;
+  padding: 15px 25px 15px 25px;
+  color: white;
+}
 .homepar {
   color: rgba(255,255,255,1);
   background-color: rgb(153, 102, 102);
-  background: linear-gradient(to right, rgba(153, 102, 102, .5), rgba(153, 102, 102, 1));
+  background: linear-gradient(to right, rgba(153, 102, 102, .3), rgba(153, 102, 102, .85));
   padding-bottom: 20px;
   padding-top: 20px;
   font-family: 'Lobster Two', cursive;
   font-style: normal;
   font-size: 45px;
   text-align: center;
-  position: relative;
   line-height: 30px;
-
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  max-width: 700px;
 }
 .partira {
   color: rgba(255,255,255,1);
@@ -60,7 +90,6 @@ div {
   margin: 0 auto;
   max-width: auto;
 }
-
 .food1{
   background-image: url("https://gbc-cdn-public-media.azureedge.net/img57462.768x512.jpg");
   background-position: center;
@@ -74,18 +103,6 @@ div {
 }
 .food4{
   background-image: url("https://www.saveur.com/sites/saveur.com/files/styles/655_1x_/public/import/2014/images/2012-12/7-SAV153-ShishKebabsChicken-750x750.jpg?itok=3XXHpFoi");
-<<<<<<< HEAD
-=======
-}
-.Description{
-background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg");
->>>>>>> 4a3db128ecb6cce3bae42575741c1a6d963c7c17
-}
-.Method{
-background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg")
-}
-.Ingredients{
-background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg")
 }
 .Description{
 background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg");
@@ -95,18 +112,6 @@ background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFh
 }
 .Ingredients{
 background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg")
-}
-header {
-  text-align: center;
-  background: url("https://raw.githubusercontent.com/silcap/silcap.github.io/master/pictures/background_proposal.jpg");
-  background-size: cover;
-  margin: 0 auto;
-}
-a {
-  color: white;
-  font-size: 15px;
-  font-family: 'Arima Madurai', cursive;
-  font-style: normal;
 }
 h1 {
   font-size: 70px;
@@ -129,11 +134,10 @@ img {
 }
 ul {
   padding: 15px;
-  background: rgba(0,0,0,0.5);
+  background: rgba(153, 102, 102,0.8);
   font-family: 'Arima Madurai', cursive;
   font-size: 17px;
   color: white;
-
 }
 li {
   display: inline;
@@ -158,23 +162,25 @@ article {
 
 /*Silvia*/
 .largetiramisu {
-  margin-left: 200px;
-  margin-right: 200px;
+  max-width: 700px;
   background-image: url("https://www.seriouseats.com/recipes/images/2017/06/20170526-tiramisu-vicky-wasik-41-1500x1125.jpg");
   background-position: center;
-  height: 300px
+  height: 350px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.container {
+  max-width: 700px;
 }
 .ingredientscolumn {
-    float: left;
-    width: 20%;
-    margin-left: 200px;
+  float: left;
+  max-width: 180px;
 }
 .methodcolumn {
-    float: right;
-    width: 50%;
-    margin-right: 200px;
+  float: right;
+  max-width: 480px;
 }
-.headertira {
+.headertira1 {
   color: rgb(153, 102, 102);
   font-style: normal;
   font-size: 40px;
@@ -182,6 +188,23 @@ article {
   letter-spacing: 1px;
   text-indent: 30px;
   padding-top: 20px;
+}
+.headertira2 {
+  color: rgb(153, 102, 102);
+  font-style: normal;
+  font-size: 40px;
+  font-family: 'Lobster Two', cursive;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+.headertira3 {
+  color: rgb(153, 102, 102);
+  font-style: normal;
+  font-size: 40px;
+  font-family: 'Lobster Two', cursive;
+  letter-spacing: 1px;
+  text-align: justify;
+  text-indent: 15px;
 }
 .details {
   color: rgb(153, 102, 102);
@@ -191,4 +214,14 @@ article {
   padding-bottom: 0px;
   letter-spacing: -.5px;
   text-shadow: 2px 2px 4px white;
+}
+.timeline {
+  float: right;
+  margin-right: 35px;
+  margin-top: 15px;
+}
+footer {
+  text-align: center;
+  color: rgb(153, 102, 102);
+  padding-bottom: 30px;
 }
