@@ -3,6 +3,31 @@ body {
   margin: 0 auto;
   background-color: rgba(255, 214, 51,.19);
 }
+.widgets {
+  position: absolute;
+  right: 0px;
+  padding-top: 30px;
+  margin-right: 50px;
+}
+.fa {
+  font-size: 50px;
+  width: 40px;
+  text-align: center;
+  margin: 5px 2px;
+  padding-right: 20px;
+}
+header {
+  text-align: center;
+  background: url("https://raw.githubusercontent.com/silcap/silcap.github.io/master/pictures/background_proposal.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+a {
+  color: white;
+  font-size: 15px;
+  font-family: 'Arima Madurai', cursive;
+  font-style: normal;
+}
 div {
   height: 250px;
   border-radius: 20px;
@@ -12,10 +37,23 @@ div {
   max-width: 700px;
   margin-bottom: 40px;
 }
-.social {
-  float: right;
-  position: absolute;
-  border: 0;
+img {
+  margin: 30px;
+  border: 7px solid white;
+  border-radius: 100px;
+  width: 15%
+}
+ul {
+  padding: 15px;
+  background: rgba(153, 102, 102,0.8);
+  font-family: 'Arima Madurai', cursive;
+  font-size: 17px;
+  color: white;
+}
+li {
+  display: inline;
+  padding: 15px 25px 15px 25px;
+  color: white;
 }
 .homepar {
   color: rgba(255,255,255,1);
@@ -75,18 +113,6 @@ background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFh
 .Ingredients{
 background-image: url("https://image.dhgate.com/0x0/f2/albu/g5/M00/2A/B3/rBVaJFhGEXmAICTdAACGI7lYmUw672.jpg")
 }
-header {
-  text-align: center;
-  background: url("https://raw.githubusercontent.com/silcap/silcap.github.io/master/pictures/background_proposal.jpg");
-  background-size: cover;
-  margin: 0 auto;
-}
-a {
-  color: white;
-  font-size: 15px;
-  font-family: 'Arima Madurai', cursive;
-  font-style: normal;
-}
 h1 {
   font-size: 70px;
 }
@@ -139,7 +165,7 @@ article {
   max-width: 700px;
   background-image: url("https://www.seriouseats.com/recipes/images/2017/06/20170526-tiramisu-vicky-wasik-41-1500x1125.jpg");
   background-position: center;
-  height: 300px;
+  height: 350px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -175,4 +201,9 @@ article {
   float: right;
   margin-right: 35px;
   margin-top: 15px;
+}
+footer {
+  text-align: center;
+  color: rgb(153, 102, 102);
+  padding-bottom: 30px;
 }
