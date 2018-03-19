@@ -258,7 +258,7 @@ table{font-size:  20px;
   h2 { font-style: normal;
   font-family: fantasy;}
   p {font-style: italic;
-
+}
 div {
   height: 200px;
       background-size: cover;
@@ -267,7 +267,6 @@ div {
       border-radius: 15px;
       margin: auto auto 40px;
       box-sizing: border-box;
-
 }
 
 
