@@ -98,7 +98,7 @@ li {
     margin-bottom: 40px;
   }
   .food3{
-    background-image: url("https://keviniscooking.com/wp-content/uploads/2017/03/Paprika-Pork-Schnitzel-square.jpg");
+    background-image: url("https://images.meredith.com/content/dam/bhg/Images/2016/10/27/RU288095.jpg.rendition.largest.jpg");
     background-position: center;
     height: 250px;
     border-radius: 20px;
@@ -133,7 +133,31 @@ li {
     width: 580px;
     background-image: url("http://thefoodsaga.com/wp-content/uploads/2016/02/baking-ingredients.jpg");
     background-position: center;
-    height: 450px;
+    height: 550px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .aboutme{
+    width: 400px;
+    background-image: url("https://media.gettyimages.com/photos/female-chef-creating-a-desert-picture-id146902493?b=1&k=6&m=146902493&s=612x612&w=0&h=2c6b8lHp_etE5xWqfcKjX6mP1U6X3jGcyHlza52T69c=");
+    background-position: left;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .aboutus{
+    width: 580px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-TVKv7_6pjOVaoSMuej9HmU-lK242sfsEvzXTtuZDQwkIm5Qm");
+    background-position: center;
+    height: 550px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
@@ -144,7 +168,7 @@ li {
   .tiram{
     background-image: url("https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2F2016%2F11%2Fmain%2Fbaking-ingredients-1611w.jpg%3Fitok%3DJ8XB2nAw&w=700&q=85");
     background-position: center;
-    height: 500px;
+    height: 350px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
@@ -167,7 +191,7 @@ li {
   .header2 {
     color: rgba(255,255,255,1);
     background-color: rgb(153, 102, 102);
-    background: linear-gradient(to right, rgba(153, 102, 102, .6), rgba(153, 102, 102, .85));
+    background: linear-gradient(to right, rgba(153, 102, 102, .5), rgba(153, 102, 102, .85));
     font-family: 'Lobster Two', cursive;
     font-style: normal;
     font-size: 35px;
@@ -185,8 +209,29 @@ li {
     transform: translate(-50%, -50%);
     width: 580px;
   }
+  .header3 {
+    color: rgba(255,255,255,1);
+    background-color: rgb(153, 102, 102);
+    background: linear-gradient(to right, rgba(153, 102, 102, .5), rgba(153, 102, 102, .85));
+    font-family: 'Lobster Two', cursive;
+    font-style: normal;
+    font-size: 35px;
+    text-align: justify;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 40px;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+  }
   .mission1 {
-    width: 270px;
+    width: 250px;
   }
   .timeline {
     width: 250px;
@@ -196,13 +241,13 @@ li {
   .mission3 {
     width: 560px;
   }
+
   footer {
     text-align: center;
     color: rgb(153, 102, 102);
     padding-bottom: 30px;
     position: fixed;
   }
-<<<<<<< HEAD
   .largetiramisu {
     width: 560px;
     background-image: url("https://www.simplyrecipes.com/wp-content/uploads/2017/10/2017-10-28-Tiramisu-6.jpg");
@@ -227,132 +272,3 @@ li {
     margin: auto;
     margin-bottom: 20px;
   }
-/*-------*/
-
-  .reviews{
-      background-image: url("https://media.npr.org/assets/img/2012/09/10/restaurant-review-1f1ede4d672918ad61b6072191a48560445184ff-s900-c85.jpg");
-      background-position: center;
-      height: 350px;
-      border-top-left-radius: 20px;
-      border-top-right-radius: 20px;
-      background-size: cover;
-      position: relative;
-      margin: auto;
-      margin-bottom: 20px;
-    }
-    .aboutus{
-        background-image: url("http://finedininglovers.cdn.crosscast-system.com/BlogPost/xl_11320_food-blogging-finedininglovers-TP.jpg");
-        background-position: center;
-        height: 350px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        background-size: cover;
-        position: relative;
-        margin: auto;
-        margin-bottom: 20px;
-      }
-      .lemon{
-        background-image: url("http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_1358_1-StockFood-00166621.jpg");
-        background-position: center;
-        height: 350px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        background-size: cover;
-        position: relative;
-        margin: auto;
-        margin-bottom: 20px;
-      }
-      .lemoni{
-        background-image: url("http://thefoodsaga.com/wp-content/uploads/2016/02/baking-ingredients.jpg");
-        background-position: center;
-        height: 450px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        background-size: cover;
-        position: relative;
-        margin: auto;
-        margin-bottom: 20px;
-      }
-        .lemonm{
-          background-image: url("https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2F2016%2F11%2Fmain%2Fbaking-ingredients-1611w.jpg%3Fitok%3DJ8XB2nAw&w=700&q=85");
-          background-position: center;
-          height: 800px;
-          border-top-left-radius: 20px;
-          border-top-right-radius: 20px;
-          background-size: cover;
-          position: relative;
-          margin: auto;
-          margin-bottom: 20px;
-<<<<<<< HEAD
-      }
-
-/*gallery*/
-
-div.gallery {
-    border: 0;
-}
-
-div.gallery:hover {
-    border: 0;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.ourpics {
-  float: left;
-  text-align: center;
-}
-
-.ourimgs {
-  float: left;
-  text-align: center;
-  border-radius: 0;
-  border: 0;
-  width: 100;
-  height: 100;
-  margin: 0;
-  width: 15%;
-  border: 3px solid rgb(153, 102, 102);
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-=======
->>>>>>> 303799e5cd0f98b80e933a2a10e22937ca27edca
->>>>>>> e3a9fbb8366eed7ed377d6a82b644eeed77588ed
