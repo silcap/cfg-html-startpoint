@@ -308,3 +308,82 @@ li {
   margin: auto;
   margin-bottom: 20px;
 }
+
+.reviews{
+    background-image: url("https://media.npr.org/assets/img/2012/09/10/restaurant-review-1f1ede4d672918ad61b6072191a48560445184ff-s900-c85.jpg");
+    background-position: center;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+
+/*gallery*/
+
+div.gallery {
+    border: 0;
+}
+
+div.gallery:hover {
+    border: 0;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ourpics {
+  float: left;
+  text-align: center;
+}
+
+.ourimgs {
+  float: left;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  width: 100;
+  height: 100;
+  margin: 0;
+  width: 15%;
+  border: 3px solid rgb(153, 102, 102);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
