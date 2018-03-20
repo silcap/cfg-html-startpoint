@@ -98,7 +98,7 @@ li {
     margin-bottom: 40px;
   }
   .food3{
-    background-image: url("https://images.meredith.com/content/dam/bhg/Images/2016/10/27/RU288095.jpg.rendition.largest.jpg");
+    background-image: url("https://keviniscooking.com/wp-content/uploads/2017/03/Paprika-Pork-Schnitzel-square.jpg");
     background-position: center;
     height: 250px;
     border-radius: 20px;
@@ -181,18 +181,6 @@ li {
   .largetiramisu {
     width: 560px;
     background-image: url("https://www.simplyrecipes.com/wp-content/uploads/2017/10/2017-10-28-Tiramisu-6.jpg");
-    background-position: center;
-    height: 250px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    text-align: justify;
-    margin-bottom: 75px;
-  }
-  .phadthai{
-    width: 560px;
-    background-image: url("https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/perfect-pad-thai.jpg?itok=Bi63qQL4");
     background-position: center;
     height: 250px;
     border-top-left-radius: 15px;
