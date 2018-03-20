@@ -98,7 +98,7 @@ li {
     margin-bottom: 40px;
   }
   .food3{
-    background-image: url("https://images.meredith.com/content/dam/bhg/Images/2016/10/27/RU288095.jpg.rendition.largest.jpg");
+    background-image: url("https://keviniscooking.com/wp-content/uploads/2017/03/Paprika-Pork-Schnitzel-square.jpg");
     background-position: center;
     height: 250px;
     border-radius: 20px;
@@ -144,7 +144,7 @@ li {
   .tiram{
     background-image: url("https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2F2016%2F11%2Fmain%2Fbaking-ingredients-1611w.jpg%3Fitok%3DJ8XB2nAw&w=700&q=85");
     background-position: center;
-    height: 350px;
+    height: 500px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
@@ -167,7 +167,7 @@ li {
   .header2 {
     color: rgba(255,255,255,1);
     background-color: rgb(153, 102, 102);
-    background: linear-gradient(to right, rgba(153, 102, 102, .5), rgba(153, 102, 102, .85));
+    background: linear-gradient(to right, rgba(153, 102, 102, .6), rgba(153, 102, 102, .85));
     font-family: 'Lobster Two', cursive;
     font-style: normal;
     font-size: 35px;
@@ -202,6 +202,7 @@ li {
     padding-bottom: 30px;
     position: fixed;
   }
+<<<<<<< HEAD
   .largetiramisu {
     width: 560px;
     background-image: url("https://www.simplyrecipes.com/wp-content/uploads/2017/10/2017-10-28-Tiramisu-6.jpg");
@@ -226,3 +227,59 @@ li {
     margin: auto;
     margin-bottom: 20px;
   }
+=======
+  .reviews{
+      background-image: url("https://media.npr.org/assets/img/2012/09/10/restaurant-review-1f1ede4d672918ad61b6072191a48560445184ff-s900-c85.jpg");
+      background-position: center;
+      height: 350px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      background-size: cover;
+      position: relative;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    .aboutus{
+        background-image: url("http://finedininglovers.cdn.crosscast-system.com/BlogPost/xl_11320_food-blogging-finedininglovers-TP.jpg");
+        background-position: center;
+        height: 350px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-size: cover;
+        position: relative;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+      .lemon{
+        background-image: url("http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_1358_1-StockFood-00166621.jpg");
+        background-position: center;
+        height: 350px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-size: cover;
+        position: relative;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+      .lemoni{
+        background-image: url("http://thefoodsaga.com/wp-content/uploads/2016/02/baking-ingredients.jpg");
+        background-position: center;
+        height: 450px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-size: cover;
+        position: relative;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+        .lemonm{
+          background-image: url("https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2F2016%2F11%2Fmain%2Fbaking-ingredients-1611w.jpg%3Fitok%3DJ8XB2nAw&w=700&q=85");
+          background-position: center;
+          height: 800px;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+          background-size: cover;
+          position: relative;
+          margin: auto;
+          margin-bottom: 20px;
+>>>>>>> 303799e5cd0f98b80e933a2a10e22937ca27edca
