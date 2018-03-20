@@ -129,10 +129,34 @@ li {
     margin: auto;
     margin-bottom: 20px;
   }
+  .PTingredients{
+    width: 580px;
+    background-image: url("http://thefoodsaga.com/wp-content/uploads/2016/02/baking-ingredients.jpg");
+    background-position: center;
+    height: 900px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+  }
   .tiram{
     background-image: url("https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2F2016%2F11%2Fmain%2Fbaking-ingredients-1611w.jpg%3Fitok%3DJ8XB2nAw&w=700&q=85");
     background-position: center;
     height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .PTmethod{
+    width: 580px;
+    background-image: url("https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2F2016%2F11%2Fmain%2Fbaking-ingredients-1611w.jpg%3Fitok%3DJ8XB2nAw&w=700&q=85");
+    background-position: center;
+    height: 800px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
@@ -191,14 +215,14 @@ li {
     margin-bottom: 75px;
   }
   .phadthai{
-    width: 560px;
+    width: 580px;
     background-image: url("https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/perfect-pad-thai.jpg?itok=Bi63qQL4");
     background-position: center;
-    height: 250px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    text-align: justify;
-    margin-bottom: 75px;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
   }
