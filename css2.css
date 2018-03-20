@@ -1,0 +1,102 @@
+body {
+  font-family: 'Arima Madurai', cursive;
+  margin: 0 auto;
+  background-color: rgba(255, 214, 51,.19);
+}
+.header {
+  text-align: center;
+  background-image: url("https://raw.githubusercontent.com/silcap/silcap.github.io/master/pictures/background_proposal.jpg");
+  background-size: cover;
+}
+.widgets {
+  position: absolute;
+  right: 0px;
+  padding-top: 30px;
+  margin-right: 50px;
+}
+.fa {
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  margin: 5px 2px;
+  padding-right: 20px;
+}
+a {
+  color: white;
+  font-size: 15px;
+  font-family: 'Arima Madurai', cursive;
+  font-style: normal;
+}
+img {
+  margin: 30px;
+  border: 7px solid white;
+  border-radius: 100px;
+  width: 15%
+}
+ul {
+  padding: 15px;
+  background: rgba(153, 102, 102,0.8);
+  font-family: 'Arima Madurai', cursive;
+  font-size: 17px;
+  color: white;
+}
+li {
+  display: inline;
+  padding: 15px 25px 15px 25px;
+  color: white;
+}
+.signup {
+  font-family: 'Lobster Two', cursive;
+  font-size: 45px;
+  color: rgb(153, 102, 102);
+}
+.col {
+  text-align: center;
+}
+.homepar {
+  color: rgba(255,255,255,1);
+  background-color: rgb(153, 102, 102);
+  background: linear-gradient(to right, rgba(153, 102, 102, .3), rgba(153, 102, 102, .85));
+  font-family: 'Lobster Two', cursive;
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+  .food1{
+    background-image: url("https://gbc-cdn-public-media.azureedge.net/img57462.768x512.jpg");
+    background-position: center;
+    height: 250px;
+    border-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .food2{
+    background-image: url("https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/perfect-pad-thai.jpg?itok=Bi63qQL4");
+    height: 250px;
+    border-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .food3{
+    background-image: url("https://c1.staticflickr.com/5/4692/38579292685_69d444c452_b.jpg");
+    background-position: center;
+    height: 250px;
+    border-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 40px;
+  }
