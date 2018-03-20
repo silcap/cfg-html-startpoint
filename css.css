@@ -190,3 +190,15 @@ li {
     text-align: justify;
     margin-bottom: 75px;
   }
+  .phadthai{
+    width: 560px;
+    background-image: url("https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/perfect-pad-thai.jpg?itok=Bi63qQL4");
+    background-position: center;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    text-align: justify;
+    margin-bottom: 75px;
+  }
