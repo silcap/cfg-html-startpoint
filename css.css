@@ -189,4 +189,14 @@ li {
       margin: auto;
       margin-bottom: 20px;
     }
-  }
+    .aboutus{
+        background-image: url("http://finedininglovers.cdn.crosscast-system.com/BlogPost/xl_11320_food-blogging-finedininglovers-TP.jpg");
+        background-position: center;
+        height: 350px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-size: cover;
+        position: relative;
+        margin: auto;
+        margin-bottom: 20px;
+      }
