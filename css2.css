@@ -7,6 +7,7 @@ body {
   text-align: center;
   background-image: url("https://raw.githubusercontent.com/silcap/silcap.github.io/master/pictures/background_proposal.jpg");
   background-size: cover;
+  margin: 0 auto;
 }
 .widgets {
   position: absolute;
@@ -23,7 +24,7 @@ body {
 }
 a {
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   font-family: 'Arima Madurai', cursive;
   font-style: normal;
 }
@@ -52,6 +53,11 @@ li {
 }
 .col {
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.row {
+  float: left;
 }
 .homepar {
   color: rgba(255,255,255,1);
@@ -70,6 +76,7 @@ li {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  width: 580px;
 }
   .food1{
     background-image: url("https://gbc-cdn-public-media.azureedge.net/img57462.768x512.jpg");
@@ -100,3 +107,17 @@ li {
     margin: auto;
     margin-bottom: 40px;
   }
+  .mission1 {
+    width: 250px;
+  }
+  .timeline {
+    width: 250px;
+    float: right;
+  }
+  .mission3 {
+    width: 560px;
+  }
+  footer {
+    text-align: center;
+    color: rgb(153, 102, 102);
+    padding-bottom: 30px;
