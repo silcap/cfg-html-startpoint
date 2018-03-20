@@ -98,7 +98,7 @@ li {
     margin-bottom: 40px;
   }
   .food3{
-    background-image: url("https://c1.staticflickr.com/5/4692/38579292685_69d444c452_b.jpg");
+    background-image: url("https://images.meredith.com/content/dam/bhg/Images/2016/10/27/RU288095.jpg.rendition.largest.jpg");
     background-position: center;
     height: 250px;
     border-radius: 20px;
@@ -107,12 +107,67 @@ li {
     margin: auto;
     margin-bottom: 40px;
   }
+  .tira{
+    background-image: url("https://img.taste.com.au/uhO5fUWQ/w1200-h630-cfill/taste/2016/11/tiramisu-with-strawberries-and-coffee-cream-32693-1.jpeg");
+    background-position: center;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .tirai{
+    background-image: url("http://thefoodsaga.com/wp-content/uploads/2016/02/baking-ingredients.jpg");
+    background-position: center;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .tiram{
+    background-image: url("https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2F2016%2F11%2Fmain%2Fbaking-ingredients-1611w.jpg%3Fitok%3DJ8XB2nAw&w=700&q=85");
+    background-position: center;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .header2 {
+    color: rgba(255,255,255,1);
+    background-color: rgb(153, 102, 102);
+    background: linear-gradient(to right, rgba(153, 102, 102, .5), rgba(153, 102, 102, .85));
+    font-family: 'Lobster Two', cursive;
+    font-style: normal;
+    font-size: 35px;
+    text-align: justify;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 580px;
+  }
   .mission1 {
     width: 250px;
   }
   .timeline {
     width: 250px;
     float: right;
+    padding-left: 10px;
   }
   .mission3 {
     width: 560px;
@@ -121,11 +176,11 @@ li {
     text-align: center;
     color: rgb(153, 102, 102);
     padding-bottom: 30px;
+    position: fixed;
   }
-
   .largetiramisu {
     width: 560px;
-    background-image: url("https://www.seriouseats.com/recipes/images/2017/06/20170526-tiramisu-vicky-wasik-41-1500x1125.jpg");
+    background-image: url("https://www.simplyrecipes.com/wp-content/uploads/2017/10/2017-10-28-Tiramisu-6.jpg");
     background-position: center;
     height: 250px;
     border-top-left-radius: 15px;
@@ -133,7 +188,7 @@ li {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     text-align: justify;
-    margin-bottom: 80px;
+    margin-bottom: 75px;
   }
   .phadthai{
     width: 560px;
@@ -145,58 +200,5 @@ li {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     text-align: justify;
-    margin-bottom: 80px;
+    margin-bottom: 75px;
   }
-  .partira {
-    color: rgba(255,255,255,1);
-    background-color: rgb(153, 102, 102);
-    background: linear-gradient(to right, rgba(153, 102, 102, .5), rgba(153, 102, 102, 1));
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
-    line-height: 25px;
-    font-size: 16px;
-    text-align: justify;
-    bottom: 0;
-    margin: 0 auto;
-    width: 560px;
-  }
-
-.headertira1 {
-  color: rgb(153, 102, 102);
-  font-style: normal;
-  font-size: 40px;
-  font-family: 'Lobster Two', cursive;
-  letter-spacing: 1px;
-  text-indent: 30px;
-  text-align: justify;
-  padding-top: 20px;
-}
-.headertira2 {
-  color: rgb(153, 102, 102);
-  font-style: normal;
-  font-size: 40px;
-  font-family: 'Lobster Two', cursive;
-  letter-spacing: 1px;
-  text-align: justify;
-  text-indent: 30px;
-}
-.headertira3 {
-  color: rgb(153, 102, 102);
-  font-style: normal;
-  font-size: 40px;
-  font-family: 'Lobster Two', cursive;
-  letter-spacing: 1px;
-  text-align: justify;
-  text-indent: 30px;
-}
-.details {
-  color: rgb(153, 102, 102);
-  display: block;
-  text-indent: 10px;
-  padding-top: 1px;
-  padding-bottom: 0px;
-  letter-spacing: -.5px;
-  text-shadow: 2px 2px 4px white;
-}
